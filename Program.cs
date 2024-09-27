@@ -44,8 +44,9 @@ catch (Exception ex)
 }
 
 //Выполняем расчет
-if (arr.Length > 0)
-{
-    double arifm = (arr[0] + arr[1] + arr[2]) / 3;
+finally
+{ 
+    double arifm = (arr[0] + arr[1] + arr[2]) / 3.0;
     Console.WriteLine($"Среднее арифметическое значение: {arifm}");
 }
+
